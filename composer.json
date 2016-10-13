@@ -8,5 +8,8 @@
       "name": "Charles Brown-Roberts",
       "email": "charlesbrownroberts@miami.edu"
     }
-  ]
+  ],
+  "require": {
+    "mustache/mustache": "1.0.0"
+  }
 }
