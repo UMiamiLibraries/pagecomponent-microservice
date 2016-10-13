@@ -1,0 +1,23 @@
+[
+  {
+    "id": "1",
+    "src": "/assets/html/src",
+    "dist": "/assets/html/dist",
+    "filename": "header.html",
+    "data": "header"
+  },
+  {
+    "id": "2",
+    "src": "/assets/html/src",
+    "dist": "/assets/html/dist",
+    "filename": "navigation.html",
+    "data": "navigation"
+  },
+  {
+    "id": "3",
+    "src": "/assets/html/src",
+    "dist": "/assets/html/dist",
+    "filename": "footer.html",
+    "data": "footer"
+  }
+]

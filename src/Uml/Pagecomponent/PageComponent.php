@@ -25,7 +25,7 @@ class PageComponent
         $options =  array('extension' => '.html');
 
         $mustache = new Mustache_Engine(array(
-            'loader' => new Mustache_Loader_FilesystemLoader(dirname(__FILE__).'/views', $options),
+            'loader' => new Mustache_Loader_FilesystemLoader(dirname(__FILE__).'/assets/views/src', $options),
             /*
            'template_class_prefix' => '__MyTemplates_',
            'cache' => dirname(__FILE__).'/../../../tmp/cache/mustache',
