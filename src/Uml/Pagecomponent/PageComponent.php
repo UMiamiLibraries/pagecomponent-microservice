@@ -7,7 +7,7 @@
  * Time: 12:11 PM
  */
 
-require_once __DIR__ .'/vendor/mustache/mustache/src/Mustache/Autoloader.php';
+require_once __DIR__ .'/../../../vendor/mustache/mustache/src/Mustache/Autoloader.php';
 
 class PageComponent
 {

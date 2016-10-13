@@ -10,6 +10,7 @@
     }
   ],
   "require": {
-    "mustache/mustache": "v2.11.1"
+    "mustache/mustache": "v2.11.1",
+    "pear/config_lite": "dev-master"
   }
 }
