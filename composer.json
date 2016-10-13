@@ -1,0 +1,12 @@
+{
+  "name": "UMiamiLibraries/pagecomponent_microservice",
+  "description": "A microservice to create page components that are sharable among different properties.",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Charles Brown-Roberts",
+      "email": "charlesbrownroberts@miami.edu"
+    }
+  ]
+}
