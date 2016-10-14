@@ -33,5 +33,12 @@
     "dist": "assets/views/dist",
     "filename": "socialmedia.html",
     "data": "socialmedia"
+  },
+  {
+    "id": "5",
+    "src": "assets/views/src",
+    "dist": "assets/views/dist",
+    "filename": "legacy-nav.html",
+    "data": "legacy-nav"
   }
 ]
