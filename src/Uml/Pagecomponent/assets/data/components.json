@@ -19,5 +19,19 @@
     "dist": "assets/views/dist",
     "filename": "footer.html",
     "data": "footer"
+  },
+  {
+    "id": "4",
+    "src": "assets/views/src",
+    "dist": "assets/views/dist",
+    "filename": "megamenu.html",
+    "data": "megamenu"
+  },
+  {
+    "id": "5",
+    "src": "assets/views/src",
+    "dist": "assets/views/dist",
+    "filename": "socialmedia.html",
+    "data": "socialmedia"
   }
 ]

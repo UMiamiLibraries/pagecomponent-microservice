@@ -27,41 +27,7 @@
             <span class="header-text tour_3"><a href="http://sp.library.miami.edu/subjects/talkback.php">Comments</a> <span id="new_comment"></span></span>
         </div>
 
-            <script>
-                function getTodaysHours(today) {
 
-
-                    $.getJSON( "//library.miami.edu/wp-content/plugins/library-hours-plugin/public/js/events.json", function( data ) {
-
-                        var i = null;
-                        for (i = 0; data.length > i; i += 1) {
-
-                            var start_date = data[i].start;
-                            var match = start_date.substring(0,10);
-                            //console.log(match);
-                            if (match === today) {
-                                console.log( data[i].title);
-                                return $("#todays_hours").append(data[i].title);
-
-                            }
-
-                        }
-
-                    });
-
-                };
-
-                var d = new Date();
-
-                var month = d.getMonth()+1;
-                var day = d.getDate();
-
-                var today = d.getFullYear() + '-' +
-                        ((''+month).length<2 ? '0' : '') + month + '-' +
-                        ((''+day).length<2 ? '0' : '') + day;
-
-                getTodaysHours(today);
-            </script>
 
 
 

@@ -51,3 +51,5 @@ class Writer
     }
 }
 
+$w = new Writer();
+$w->writeComponents();
