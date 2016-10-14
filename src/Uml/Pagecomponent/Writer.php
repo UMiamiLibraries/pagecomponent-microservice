@@ -32,17 +32,12 @@ class Writer
             file_put_contents($destination, $data);
         }
 
-
     }
 
     public function writeComponents() {
 
         $array = $this->getJson();
-
-
         foreach($array as $component):
-
-            //var_dump($component);
             $src = $component['src'];
             $dist = $component['dist'];
             $filename = $component['filename'];
@@ -51,7 +46,6 @@ class Writer
             $destination = $dist . '/' . $filename;
 
             $this->write($source, $destination);
-
         endforeach;
 
     }
